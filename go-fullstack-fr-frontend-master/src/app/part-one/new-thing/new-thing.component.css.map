@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "new-thing.component.scss"
+    ],
+    "names": [],
+    "file": "new-thing.component.css"
+}

@@ -1,0 +1,47 @@
+.main-pane {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main-pane h1 {
+  color: #333333;
+}
+
+.part-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.part {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+  background: #333333;
+  cursor: pointer;
+}
+
+.part:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.part h1 {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+/*# sourceMappingURL=default.component.css.map */

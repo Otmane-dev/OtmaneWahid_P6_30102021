@@ -1,0 +1,52 @@
+.stuff-grid {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.thing-pane {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  position: relative;
+  width: 270px;
+  height: 270px;
+  margin: 5px;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: 1px 1px 3px #333333;
+          box-shadow: 1px 1px 3px #333333;
+  cursor: pointer;
+}
+
+.thing-pane:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.thing-info {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+}
+
+.thing-info h3 {
+  font-weight: 800;
+}
+
+.thing-info h5 {
+  color: #6eb5ff;
+}
+/*# sourceMappingURL=stuff-list.component.css.map */
